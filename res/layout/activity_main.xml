@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <EditText
+    <EditText android:imeOptions="actionDone"
         android:id="@+id/etAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="87dp"
-        android:hint="@string/hello_world"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:typeface="serif" />
 
